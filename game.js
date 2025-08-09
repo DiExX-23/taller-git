@@ -5,6 +5,8 @@
 // El jugador recibe pistas de "frío" o "caliente" dependiendo de qué tan cerca o lejos esté
 // y tiene un máximo de 15 intentos por partida.
 
+console.log(`Tendrás un máximo de ${15} intentos para adivinar el número entre ${MIN} y ${MAX}. ¡Buena suerte!`);
+
 const prompt = require('prompt-sync')({ sigint: true });
 const MIN = 1;
 const MAX = 125;
