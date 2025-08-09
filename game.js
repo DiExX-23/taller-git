@@ -33,6 +33,9 @@ while (jugarOtraVez) {
       continue;
     }
 
+    // Mostrar intentos restantes
+    console.log(`Te quedan ${15 - intentos} intentos.`);
+
     if (intento === numeroSecreto) {
       console.log(`¡Correcto! Lo lograste en ${intentos} intentos.`);
       adivinado = true;
